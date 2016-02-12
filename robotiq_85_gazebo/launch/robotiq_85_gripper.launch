@@ -10,7 +10,7 @@
     <arg name="paused" value="$(arg paused)"/>
     <arg name="gui" value="$(arg gui)"/>
   </include>
-
+  
   <!-- send robot urdf to param server -->
   <param name="robot_description" command="$(find xacro)/xacro.py $(find robotiq_85_description)/urdf/robotiq_85_gripper.xacro" />
 
