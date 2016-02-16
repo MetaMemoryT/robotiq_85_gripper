@@ -4,11 +4,10 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
     <property name="pi" value="3.14159"/>
     
-    <!-- common stuff -->
-    <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85.common.gazebo.xacro" />
+    
     
     <xacro:macro name="robotiq_85_gripper" params="prefix">
-    
+        
         <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85.transmission.xacro" />
 
         <link name="${prefix}robotiq_85_root"/>
