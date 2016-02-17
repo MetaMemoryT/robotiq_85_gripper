@@ -5,7 +5,7 @@
   <!-- common stuff -->
   <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85.common.gazebo.xacro" />
 
-  <!-- ur5 -->
+  <!-- robotiq_85 -->
   <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
 
   <!-- arm -->
