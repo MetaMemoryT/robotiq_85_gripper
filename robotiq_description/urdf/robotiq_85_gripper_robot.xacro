@@ -3,10 +3,10 @@
        name="robotiq_85_gripper" >
 
   <!-- common stuff -->
-  <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85.common.gazebo.xacro" />
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_85.common.gazebo.xacro" />
 
   <!-- robotiq_85 -->
-  <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_85_gripper.urdf.xacro" />
 
   <!-- arm -->
   <xacro:robotiq_85_gripper prefix=""/>

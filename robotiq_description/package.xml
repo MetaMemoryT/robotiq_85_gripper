@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>robotiq_85_description</name>
+  <name>robotiq_description</name>
   <version>0.0.1</version>
   <description>Stanley Innovation Robotiq 85 Visual Models</description>
   <maintainer email="dev@stanleyinnovation.com">Patrick Hussey</maintainer>
