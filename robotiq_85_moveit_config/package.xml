@@ -1,6 +1,6 @@
 <package>
 
-  <name>robotiq_85_movit_config</name>
+  <name>robotiq_85_moveit_config</name>
   <version>0.2.0</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the robotiq_85_gripper with the MoveIt Motion Planning Framework
@@ -16,6 +16,7 @@
 
   <run_depend>moveit_ros_move_group</run_depend>
   <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
   <run_depend>moveit_ros_visualization</run_depend>
   <run_depend>joint_state_publisher</run_depend>
   <run_depend>robot_state_publisher</run_depend>
@@ -25,5 +26,5 @@
 
 
   <buildtool_depend>catkin</buildtool_depend>
-  
+
 </package>
